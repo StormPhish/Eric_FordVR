@@ -183,8 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885d222bc36da3d489909c0ad5a6ae1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 671547189}
-  useLocalValues: 1
+  target: {fileID: 0}
+  useLocalValues: 0
   mutateOnAxis:
     xState: 1
     yState: 1
@@ -860,7 +860,7 @@ PrefabInstance:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8440461
+      value: -8.83
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -3774,8 +3774,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 200783201}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -4106,7 +4105,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  coordinateToExtract: 1
+  coordinateToExtract: 0
 --- !u!1001 &73144191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5919,18 +5918,6 @@ Transform:
   m_Father: {fileID: 371428470}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &109128108 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6448605195277943161, guid: a8ac9b37a635c2f41bb96ce4c8c10fe0,
-    type: 3}
-  m_PrefabInstance: {fileID: 27809912}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36b5781728bc3ef47af5d7aca57b0e57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &110520661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8637,7 +8624,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: VRTK_Axis5_RightVertical
+  axisName: 
 --- !u!4 &203652714 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5168838865168430698, guid: ea9a0c3b69bf0544cb97b07fe9dcffc9,
@@ -9036,8 +9023,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 313800105}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -9325,6 +9311,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 222038584}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &222072148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 222072149}
+  m_Layer: 0
+  m_Name: TestingTable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222072149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222072148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.18, y: -0.79036045, z: 7.27147}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 634455284}
+  - {fileID: 1055075994}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &222072711
 GameObject:
   m_ObjectHideFlags: 0
@@ -11099,18 +11117,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 238783790}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &238783793 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
-    type: 3}
-  m_PrefabInstance: {fileID: 238783790}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114088387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 906c6376972e44f469330df394172abd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &242135188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12793,8 +12799,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 668600620}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -12863,7 +12868,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: Horizontal
+  axisName: 
 --- !u!1 &320068091
 GameObject:
   m_ObjectHideFlags: 0
@@ -12974,7 +12979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 324150769}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -13037,9 +13042,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 109128108}
-  - {fileID: 1537421396}
+  elements: []
 --- !u!4 &334502068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5811860430504718841, guid: ee1b0566438f4f742b95945398e9d4f1,
@@ -13116,9 +13119,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 649511991}
-  - {fileID: 1422179356}
+  elements: []
 --- !u!114 &335049019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13145,7 +13146,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 335049018}
+  actions: {fileID: 0}
 --- !u!1 &335427062 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: f76c732827bc33d4894d750087fdb0e2,
@@ -14294,10 +14295,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1470905935}
-  - {fileID: 7469606156991265314}
-  - {fileID: 370024467}
+  elements: []
 --- !u!114 &370024466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14312,7 +14310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 370024465}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -14339,7 +14337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d491f4b177483f4198fddd1a827530e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.1
+  startTime: 1
   Started:
     m_PersistentCalls:
       m_Calls: []
@@ -14735,7 +14733,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 380612879}
+  actions: {fileID: 0}
 --- !u!114 &380612879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14773,11 +14771,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1866085817}
-  - {fileID: 1579643581}
-  - {fileID: 2032677106}
-  - {fileID: 1949350213}
+  elements: []
 --- !u!1001 &381603960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15133,8 +15127,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 313800105}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -15448,8 +15441,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 677499302}
+  elements: []
 --- !u!114 &407166172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15464,7 +15456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 407166171}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -15559,8 +15551,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1670693876}
+  elements: []
 --- !u!1 &408825388
 GameObject:
   m_ObjectHideFlags: 0
@@ -16866,9 +16857,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9449de62d4f4d71adc6c8db47b76e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 1751637657}
-  target: {fileID: 1941168339}
-  physicsCast: {fileID: 858009353}
+  source: {fileID: 0}
+  target: {fileID: 0}
+  physicsCast: {fileID: 0}
   TargetObscured:
     m_PersistentCalls:
       m_Calls:
@@ -16910,7 +16901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source:
-    field: {fileID: 456089426}
+    field: {fileID: 0}
   onlyProcessOnActiveAndEnabled: 1
   interval: 0
 --- !u!1 &463634694
@@ -18657,11 +18648,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraValidity:
-    field: {fileID: 41248149}
+    field: {fileID: 0}
   overlayColor: {r: 0, g: 0, b: 0, a: 1}
-  overlayMaterial: {fileID: 2100000, guid: 2d9434fe91f6fb447ade6321f272acd7, type: 2}
+  overlayMaterial: {fileID: 0}
   addDuration: 0
-  removeDuration: 0.5
+  removeDuration: 1
   appliedDuration: 0
   Added:
     m_PersistentCalls:
@@ -23607,8 +23598,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1682159343}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls:
@@ -24193,22 +24183,22 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1055075994}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.244
+      value: -1.354
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: 1.38
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.15799999
+      value: 2.13
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -24233,7 +24223,7 @@ PrefabInstance:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -24253,7 +24243,7 @@ PrefabInstance:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.061538458
+      value: 0.19999999
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -24282,12 +24272,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 240fdd985e025cb459f73d2b1bb7b341, type: 3}
---- !u!4 &618618786 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
-    type: 3}
-  m_PrefabInstance: {fileID: 618618785}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &623384683
 GameObject:
   m_ObjectHideFlags: 0
@@ -24372,18 +24356,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 503182258}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &626010926 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6300824546524693861, guid: 04f737c618e5ff64a80ff315189d3fb0,
-    type: 3}
-  m_PrefabInstance: {fileID: 503182258}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53fca345d7764be0a2f6ce49a7d64b3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &626010927 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6300824546524693862, guid: 04f737c618e5ff64a80ff315189d3fb0,
@@ -25066,7 +25038,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: 0.5
+    minimum: 0
     maximum: 1
 --- !u!114 &644246437
 MonoBehaviour:
@@ -25084,8 +25056,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1956439096}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -25396,9 +25367,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1814319320}
-  - {fileID: 1682159341}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -25514,18 +25483,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 653475651}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &653475654 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4714943977382568984, guid: c653ae62cc25a3447b25602aa098c379,
-    type: 3}
-  m_PrefabInstance: {fileID: 653475651}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653475653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d28135ccdf6492447b269e0d277b842f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &654098124
 GameObject:
   m_ObjectHideFlags: 0
@@ -25728,22 +25685,22 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1055075994}
+    m_TransformParent: {fileID: 222072149}
     m_Modifications:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0756923
+      value: 5.388
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: 2.1704
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.15799999
+      value: -5.188
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -25788,7 +25745,7 @@ PrefabInstance:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.061538458
+      value: 0.19999999
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -26499,7 +26456,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: Vertical
+  axisName: 
 --- !u!1001 &670191345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26783,7 +26740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d491f4b177483f4198fddd1a827530e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 5
+  startTime: 1
   Started:
     m_PersistentCalls:
       m_Calls: []
@@ -27042,9 +26999,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1620960231}
-  - {fileID: 997992836}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -28021,8 +27976,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1155621504}
+  elements: []
 --- !u!1 &704458862
 GameObject:
   m_ObjectHideFlags: 0
@@ -28785,7 +28739,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: VRTK_Axis11_LeftGrip
+  axisName: 
 --- !u!1001 &750952203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29098,9 +29052,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1694890671}
-  - {fileID: 1162798518}
+  elements: []
 --- !u!114 &760099401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29115,7 +29067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 760099400}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -29607,7 +29559,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: 0.75
+    minimum: 0
     maximum: 1
 --- !u!114 &770982651
 MonoBehaviour:
@@ -29625,9 +29577,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1113077147}
-  - {fileID: 609618801}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -29757,8 +29707,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 832891969}
+  elements: []
 --- !u!114 &776089287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29773,7 +29722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 776089286}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -30446,7 +30395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  componentTypes: {fileID: 791554696}
+  componentTypes: {fileID: 0}
 --- !u!114 &791554696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30484,9 +30433,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - assemblyQualifiedTypeName: VRTK.Examples.Tags.InteractableSawTag, VRTK.Samples.Farm.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  elements: []
 --- !u!65 &791554697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31347,9 +31294,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 2059537426}
-  - {fileID: 456089427}
+  elements: []
 --- !u!114 &807727090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31363,7 +31308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   processMoment: 5
-  processes: {fileID: 807727089}
+  processes: {fileID: 0}
 --- !u!1 &811709526
 GameObject:
   m_ObjectHideFlags: 0
@@ -32167,7 +32112,7 @@ MonoBehaviour:
   autoRejectStates: -1
   layerMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 0
 --- !u!4 &839313102
 Transform:
   m_ObjectHideFlags: 0
@@ -32358,8 +32303,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1623255574}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls:
@@ -32776,7 +32720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layersToIgnore:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 4
   triggerInteraction: 0
 --- !u!1 &858629128
 GameObject:
@@ -35465,7 +35409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  componentTypes: {fileID: 950863808}
+  componentTypes: {fileID: 0}
 --- !u!114 &950863807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35480,7 +35424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoRejectStates: -1
   rule:
-    field: {fileID: 950863806}
+    field: {fileID: 0}
 --- !u!114 &950863808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35518,21 +35462,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - assemblyQualifiedTypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedTypeName: VRTK.Prefabs.Interactions.Interactables.Climb.ClimbInteractableFacade,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedTypeName: VRTK.Prefabs.Locomotion.BodyRepresentation.BodyRepresentationColliderTag,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedTypeName: VRTK.Examples.Tags.InvalidTeleportLocationTag, VRTK.Samples.Farm.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedTypeName: UnityEngine.ConfigurableJoint, UnityEngine.PhysicsModule,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedTypeName: UnityEngine.HingeJoint, UnityEngine.PhysicsModule,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedTypeName: VRTK.Prefabs.Interactions.Interactors.InteractorFacade,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  elements: []
 --- !u!1 &953520808
 GameObject:
   m_ObjectHideFlags: 0
@@ -36386,10 +36316,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ceaseAfterFirstSourceProcessed: 1
-  sources: {fileID: 408562044}
+  sources: {fileID: 0}
   sourceValidity:
     field: {fileID: 0}
-  targets: {fileID: 1620831585}
+  targets: {fileID: 0}
   targetValidity:
     field: {fileID: 0}
 --- !u!114 &983823882
@@ -36405,7 +36335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source:
-    field: {fileID: 983823881}
+    field: {fileID: 0}
   onlyProcessOnActiveAndEnabled: 1
   interval: 0
 --- !u!1 &984805287
@@ -36439,7 +36369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layersToIgnore:
     serializedVersion: 2
-    m_Bits: 39
+    m_Bits: 4
   triggerInteraction: 0
 --- !u!4 &984805289
 Transform:
@@ -39082,14 +39012,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055075990}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6, y: 0.78, z: 2.234}
-  m_LocalScale: {x: 3.25, y: 1, z: 1}
-  m_Children:
-  - {fileID: 634455284}
-  - {fileID: 618618786}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.590653, y: 1.5703605, z: -5.03747}
+  m_LocalScale: {x: 3.2500002, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 222072149}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1055380078
 PrefabInstance:
@@ -40427,7 +40355,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: 0.75
+    minimum: 0
     maximum: 1
 --- !u!114 &1080397884
 MonoBehaviour:
@@ -40445,9 +40373,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1228576311}
-  - {fileID: 1825120758}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -40938,9 +40864,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 281323022}
-  - {fileID: 894494926}
+  elements: []
 --- !u!114 &1095266536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40978,7 +40902,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 1095266535}
+  actions: {fileID: 0}
 --- !u!1 &1100182794
 GameObject:
   m_ObjectHideFlags: 0
@@ -41784,7 +41708,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: VRTK_Axis9_LeftTrigger
+  axisName: 
 --- !u!1 &1114088387 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7915416951780248044, guid: 240fdd985e025cb459f73d2b1bb7b341,
@@ -42923,9 +42847,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - 0
-  - 300
+  elements: []
 --- !u!114 &1150470169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42952,7 +42874,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  collection: {fileID: 1150470168}
+  collection: {fileID: 0}
 --- !u!1001 &1154802019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43624,8 +43546,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1682159342}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -43917,7 +43838,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  actions: {fileID: 1180697099}
+  actions: {fileID: 0}
 --- !u!114 &1180697099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43955,9 +43876,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 2008793266}
-  - {fileID: 1431076076}
+  elements: []
 --- !u!1 &1181819214
 GameObject:
   m_ObjectHideFlags: 0
@@ -44005,10 +43924,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ceaseAfterFirstSourceProcessed: 1
-  sources: {fileID: 1553873491}
+  sources: {fileID: 0}
   sourceValidity:
     field: {fileID: 0}
-  targets: {fileID: 1959133015}
+  targets: {fileID: 0}
   targetValidity:
     field: {fileID: 0}
 --- !u!114 &1181819217
@@ -44024,7 +43943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source:
-    field: {fileID: 1181819216}
+    field: {fileID: 0}
   onlyProcessOnActiveAndEnabled: 1
   interval: 0
 --- !u!1001 &1184426326
@@ -45086,8 +45005,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: -0.6
-    maximum: 0.6
+    minimum: 0
+    maximum: 1
 --- !u!114 &1199510468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45104,8 +45023,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 668600620}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -45448,8 +45366,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: -0.6
-    maximum: 0.6
+    minimum: 0
+    maximum: 1
 --- !u!114 &1209999432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45466,8 +45384,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1620960231}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -46910,7 +46827,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: VRTK_Axis10_RightTrigger
+  axisName: 
 --- !u!1001 &1238306823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47950,13 +47867,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c27c3f6d672474d90c5c465ff323af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 671547189}
-  useLocalValues: 1
+  target: {fileID: 0}
+  useLocalValues: 0
   mutateOnAxis:
-    xState: 0
+    xState: 1
     yState: 1
-    zState: 0
-  origin: {fileID: 2033043958}
+    zState: 1
+  origin: {fileID: 0}
 --- !u!114 &1264803055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48011,7 +47928,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  coordinateMap: 1
+  coordinateMap: 0
 --- !u!4 &1264803057
 Transform:
   m_ObjectHideFlags: 0
@@ -48366,9 +48283,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - assemblyQualifiedTypeName: VRTK.Examples.Tags.InteractableHammerTag, VRTK.Samples.Farm.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  elements: []
 --- !u!114 &1272890669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48382,7 +48297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  componentTypes: {fileID: 1272890668}
+  componentTypes: {fileID: 0}
 --- !u!1 &1273562102
 GameObject:
   m_ObjectHideFlags: 0
@@ -49121,8 +49036,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: -1
-    maximum: -0.75
+    minimum: 0
+    maximum: 1
 --- !u!114 &1308400352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49139,8 +49054,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 200783201}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -50007,8 +49921,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1682159344}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -50423,8 +50336,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1620960231}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -50700,9 +50612,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 962531586}
-  - {fileID: 1526611564}
+  elements: []
 --- !u!114 &1353428485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50740,7 +50650,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 1353428484}
+  actions: {fileID: 0}
 --- !u!1 &1354172623
 GameObject:
   m_ObjectHideFlags: 0
@@ -52913,8 +52823,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0eab237e25807459af1c5caf4d3d33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  processMoment: 3
-  processes: {fileID: 1425994168}
+  processMoment: 5
+  processes: {fileID: 0}
 --- !u!114 &1425994168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52952,9 +52862,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 983823882}
-  - {fileID: 1181819217}
+  elements: []
 --- !u!1 &1426490838
 GameObject:
   m_ObjectHideFlags: 0
@@ -54126,8 +54034,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: -0.6
-    maximum: 0.6
+    minimum: 0
+    maximum: 1
 --- !u!114 &1462393431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54144,8 +54052,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 313800105}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -54428,7 +54335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  componentTypes: {fileID: 1470905940}
+  componentTypes: {fileID: 0}
 --- !u!114 &1470905940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54466,9 +54373,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - assemblyQualifiedTypeName: VRTK.Examples.Scarecrow.Tags.ScarecrowHeadTag, VRTK.Samples.Farm.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  elements: []
 --- !u!1 &1471502205
 GameObject:
   m_ObjectHideFlags: 0
@@ -54859,9 +54764,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - field: {fileID: 950863807}
-  - field: {fileID: 626010926}
+  elements: []
 --- !u!114 &1480808433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54875,7 +54778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  rules: {fileID: 1480808432}
+  rules: {fileID: 0}
 --- !u!1 &1481501104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2262987785075144963, guid: b59708b4f62da06428c7e026e0cbb74e,
@@ -55667,8 +55570,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1623255574}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -56036,18 +55938,6 @@ Transform:
   m_Father: {fileID: 553380644}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1537421396 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6448605195277943161, guid: a8ac9b37a635c2f41bb96ce4c8c10fe0,
-    type: 3}
-  m_PrefabInstance: {fileID: 796535996}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36b5781728bc3ef47af5d7aca57b0e57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1540393006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56217,7 +56107,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: 0.5
+    minimum: 0
     maximum: 1
 --- !u!114 &1541388526
 MonoBehaviour:
@@ -56235,8 +56125,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 745507790}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -56948,8 +56837,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1868995656}
+  elements: []
 --- !u!1001 &1556713501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57586,9 +57474,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1162798518}
-  - {fileID: 2008806589}
+  elements: []
 --- !u!114 &1568031989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57615,7 +57501,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 1568031988}
+  actions: {fileID: 0}
 --- !u!1001 &1570970267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58611,18 +58497,6 @@ Transform:
   m_Father: {fileID: 553380644}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1579643581 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114738295114813886, guid: 0bb103b515847514e866aa26155cc4b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1814319317}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1580352476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60569,8 +60443,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1867054183}
+  elements: []
 --- !u!1 &1620960229
 GameObject:
   m_ObjectHideFlags: 0
@@ -60629,7 +60502,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: VRTK_Axis4_RightHorizontal
+  axisName: 
 --- !u!1001 &1623255572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60693,30 +60566,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1623255572}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1623255574 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114730232170466396, guid: c3550842e5f2a1245ba3fac2bdb34c9f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1623255572}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1623255575 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114172852551398280, guid: c3550842e5f2a1245ba3fac2bdb34c9f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1623255572}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1624897855
 GameObject:
   m_ObjectHideFlags: 0
@@ -61147,8 +60996,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 238783793}
+  elements: []
 --- !u!114 &1645727757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61163,7 +61011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 1645727756}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -61841,9 +61689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1506801509}
-  - {fileID: 161537695}
+  elements: []
 --- !u!114 &1661096820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61870,7 +61716,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 1661096819}
+  actions: {fileID: 0}
 --- !u!1001 &1661300448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62461,12 +62307,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1038034089}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1670693876 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1572997002008348879, guid: c69d84a3cadb94e45af0210c52e5728d,
-    type: 3}
-  m_PrefabInstance: {fileID: 643304544}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1670774801
 GameObject:
   m_ObjectHideFlags: 0
@@ -62759,9 +62599,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1814319319}
-  - {fileID: 1682159342}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -62980,54 +62818,85 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1682159338}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1682159341 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114918917931712692, guid: 9623e1c09606a01498f200718f0f607d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1682159338}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1682159342 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114008397680483090, guid: 9623e1c09606a01498f200718f0f607d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1682159338}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1682159343 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114175256907313876, guid: 9623e1c09606a01498f200718f0f607d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1682159338}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1682159344 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6180832610210776363, guid: 9623e1c09606a01498f200718f0f607d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1682159338}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 551a1a221c1615e408f2366846ca67ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+--- !u!1001 &1682437688
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 929674165135654098, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: applyTransformations
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617146, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_Name
+      value: InteractableSnapZone
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.698
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.405
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.118
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617148, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929674165247617149, guid: caa435a632139cc42ba8f2ff90a792da,
+        type: 3}
+      propertyPath: transitionDuration
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: caa435a632139cc42ba8f2ff90a792da, type: 3}
 --- !u!1 &1691334059
 GameObject:
   m_ObjectHideFlags: 0
@@ -63888,11 +63757,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1e4d85989b8ff3245876a96da054447c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.379
+      value: -13.23
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1e4d85989b8ff3245876a96da054447c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.088
+      value: 12.03
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1e4d85989b8ff3245876a96da054447c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -64080,9 +63949,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1991101811}
-  - {fileID: 1377368325}
+  elements: []
 --- !u!114 &1699999471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64109,7 +63976,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 1699999470}
+  actions: {fileID: 0}
 --- !u!1001 &1703918107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64900,7 +64767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  componentTypes: {fileID: 1754546510}
+  componentTypes: {fileID: 0}
 --- !u!114 &1754546510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64938,9 +64805,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - assemblyQualifiedTypeName: VRTK.Examples.Tags.InteractableHacksawTag, VRTK.Samples.Farm.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  elements: []
 --- !u!65 &1754546511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68081,30 +67946,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1814319317}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1814319319 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114623150725972100, guid: 0bb103b515847514e866aa26155cc4b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1814319317}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1814319320 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114133641074338956, guid: 0bb103b515847514e866aa26155cc4b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1814319317}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1817215563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68500,7 +68341,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: 0.75
+    minimum: 0
     maximum: 1
 --- !u!114 &1822718411
 MonoBehaviour:
@@ -68518,8 +68359,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 668600620}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -68665,8 +68505,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1682159343}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls:
@@ -68766,9 +68605,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1911779811}
-  - {fileID: 1332299447}
+  elements: []
 --- !u!1 &1832023053
 GameObject:
   m_ObjectHideFlags: 0
@@ -68830,7 +68667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  componentTypes: {fileID: 1832023060}
+  componentTypes: {fileID: 0}
 --- !u!114 &1832023057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68846,7 +68683,7 @@ MonoBehaviour:
   emittedTypes: -1
   statesToProcess: -1
   forwardingSourceValidity:
-    field: {fileID: 1832023056}
+    field: {fileID: 0}
   CollisionStarted:
     m_PersistentCalls:
       m_Calls:
@@ -68994,9 +68831,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - assemblyQualifiedTypeName: VRTK.Prefabs.Interactions.Interactors.InteractorFacade,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  elements: []
 --- !u!1001 &1836299616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69579,8 +69414,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 668600620}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -69717,18 +69551,6 @@ Transform:
   m_Father: {fileID: 224376397}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1866085817 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114614632775679600, guid: c3550842e5f2a1245ba3fac2bdb34c9f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1623255572}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc78f42e295d5c04ea5966fc2b206f6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1867054183
 GameObject:
   m_ObjectHideFlags: 0
@@ -69842,12 +69664,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3454000774141328785, guid: 08825967072cf194bbe80ba3abd9a0cf,
     type: 3}
   m_PrefabInstance: {fileID: 110520661}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1868995656 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1572997002008348879, guid: c69d84a3cadb94e45af0210c52e5728d,
-    type: 3}
-  m_PrefabInstance: {fileID: 176654561}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1869827864
 GameObject:
@@ -70810,9 +70626,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 2008793266}
-  - {fileID: 1431076076}
+  elements: []
 --- !u!114 &1905735542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70839,7 +70653,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 1905735541}
+  actions: {fileID: 0}
 --- !u!1 &1907226791
 GameObject:
   m_ObjectHideFlags: 0
@@ -71346,9 +71160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1694890671}
-  - {fileID: 11844313}
+  elements: []
 --- !u!1 &1912031012 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1443488380965344, guid: ea9a0c3b69bf0544cb97b07fe9dcffc9,
@@ -71400,7 +71212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layersToIgnore:
     serializedVersion: 2
-    m_Bits: 550
+    m_Bits: 4
   triggerInteraction: 0
 --- !u!1 &1917868037
 GameObject:
@@ -72358,11 +72170,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 653475654}
-  - {fileID: 1941097433}
-  - {fileID: 3323817360917159682}
-  - {fileID: 1933596617}
+  elements: []
 --- !u!114 &1933596616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72377,7 +72185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 1933596615}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -72404,7 +72212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d491f4b177483f4198fddd1a827530e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.1
+  startTime: 1
   Started:
     m_PersistentCalls:
       m_Calls: []
@@ -72594,8 +72402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7049573dc88328469d9edb6a4b6cd76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeline: {fileID: 1939738893}
-  animationName: BucketWithRope
+  timeline: {fileID: 0}
+  animationName: 
 --- !u!1001 &1941097432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72842,7 +72650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoRejectStates: -1
-  componentTypes: {fileID: 1941097440}
+  componentTypes: {fileID: 0}
 --- !u!114 &1941097440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72880,9 +72688,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - assemblyQualifiedTypeName: VRTK.Examples.Scarecrow.Tags.ScarecrowHatTag, VRTK.Samples.Farm.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  elements: []
 --- !u!1 &1941168339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3863422424652264037, guid: f8e0d2a59209d854b91b04b5db7df9ca,
@@ -72946,7 +72752,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  keyCode: 337
+  keyCode: 0
 --- !u!1 &1956439094
 GameObject:
   m_ObjectHideFlags: 0
@@ -73005,7 +72811,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   equalityTolerance: 1e-45
-  axisName: VRTK_Axis12_RightGrip
+  axisName: 
 --- !u!1 &1956799186
 GameObject:
   m_ObjectHideFlags: 0
@@ -73325,8 +73131,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 576365896}
+  elements: []
 --- !u!1 &1968487708
 GameObject:
   m_ObjectHideFlags: 0
@@ -74056,8 +73861,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1623255575}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -74725,8 +74529,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 1682159342}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -75590,7 +75393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d491f4b177483f4198fddd1a827530e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTime: 0.2
+  startTime: 1
   Started:
     m_PersistentCalls:
       m_Calls: []
@@ -75705,7 +75508,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  keyCode: 336
+  keyCode: 0
 --- !u!1 &2033043958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1068226196861958, guid: 9aa99d00578590e45a52faa205a1014a,
@@ -76418,7 +76221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   processMoment: 5
-  processes: {fileID: 2050064803}
+  processes: {fileID: 0}
 --- !u!114 &2050064801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76432,9 +76235,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source:
-    field: {fileID: 2050064802}
+    field: {fileID: 0}
   onlyProcessOnActiveAndEnabled: 1
-  interval: 0.5
+  interval: 0
 --- !u!114 &2050064802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76447,9 +76250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1677f41a3fe24abfb0034969814a0b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 1751637657}
-  target: {fileID: 1532015197}
-  targetRadius: 1
+  source: {fileID: 0}
+  target: {fileID: 0}
+  targetRadius: 0.1
   TargetFaced:
     m_PersistentCalls:
       m_Calls:
@@ -76515,8 +76318,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 2050064801}
+  elements: []
 --- !u!4 &2050224386 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5783656393836487151, guid: e09dc604489578d4387f65e0e4dd083f,
@@ -76599,9 +76401,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9449de62d4f4d71adc6c8db47b76e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 1751637657}
-  target: {fileID: 405414544}
-  physicsCast: {fileID: 858009353}
+  source: {fileID: 0}
+  target: {fileID: 0}
+  physicsCast: {fileID: 0}
   TargetObscured:
     m_PersistentCalls:
       m_Calls:
@@ -76643,7 +76445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source:
-    field: {fileID: 2059537425}
+    field: {fileID: 0}
   onlyProcessOnActiveAndEnabled: 1
   interval: 0
 --- !u!1 &2060207470
@@ -77578,8 +77380,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   positiveBounds:
-    minimum: -0.6
-    maximum: 0.6
+    minimum: 0
+    maximum: 1
 --- !u!114 &2080990359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77596,8 +77398,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 200783201}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -79223,9 +79024,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 11844313}
-  - {fileID: 2008806589}
+  elements: []
 --- !u!114 &2130557181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79240,7 +79039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 2130557180}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -79302,9 +79101,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   defaultValue: 0
-  sources:
-  - {fileID: 200783201}
-  - {fileID: 71306112}
+  sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -79618,7 +79415,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135526971
 GameObject:
@@ -79725,9 +79522,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 1680363554}
-  - {fileID: 832891969}
+  elements: []
 --- !u!114 &2138232676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79754,7 +79549,7 @@ MonoBehaviour:
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-  actions: {fileID: 2138232675}
+  actions: {fileID: 0}
 --- !u!1 &2139343232
 GameObject:
   m_ObjectHideFlags: 0
@@ -79977,8 +79772,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentIndex: 0
-  elements:
-  - {fileID: 161537695}
+  elements: []
 --- !u!114 &2145973137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79993,7 +79787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   checkDelay: 0.000011
   maximumRunTime: Infinity
-  behaviours: {fileID: 2145973136}
+  behaviours: {fileID: 0}
   ActiveAndEnabled:
     m_PersistentCalls:
       m_Calls:
@@ -82386,18 +82180,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc165ab4efd7149429ff92afc15a1eae, type: 3}
---- !u!114 &3323817360917159682 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3323817360917159682, guid: 71fb421f79510cd4bbcc9a353ecc895a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3735923740749819835}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6193900817983604048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 906c6376972e44f469330df394172abd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!33 &3628006450770780337
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -82942,18 +82724,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7949917172592088259}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7469606156991265314 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7469606156991265314, guid: f76409ff1ded6bb499099229d248e22f,
-    type: 3}
-  m_PrefabInstance: {fileID: 5332812713877694036}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052773386955563120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 906c6376972e44f469330df394172abd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7509562566879997172
 PrefabInstance:
   m_ObjectHideFlags: 0
